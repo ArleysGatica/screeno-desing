@@ -1,0 +1,66 @@
+.Header-main{
+  background: black;
+}
+
+.Header{
+  width: 1140px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+h1{
+  color: white; 
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+strong{
+  color:#006AFF;
+}
+
+nav{
+  width: 30%;
+  display: flex;
+}
+
+nav ul{
+  display: flex;
+  margin: auto;
+  gap: 95px;
+  color: white;
+}
+
+nav ul li{
+  list-style: none;
+  display: flex;  
+}
+
+.Button{
+  width: 180px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+#login{
+background: transparent;
+  color: white;
+  border: none
+}
+
+#start{
+  background: #006AFF;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 115px;
+  height: 35px;
+}
