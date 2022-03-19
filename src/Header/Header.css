@@ -7,7 +7,7 @@
   height: 46px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0 auto;
   padding: 10px;
 }
@@ -25,14 +25,15 @@ strong{
 }
 
 nav{
-  width: 30%;
+  width: 37%;
   display: flex;
+  margin-right: auto;
 }
 
 nav ul{
   display: flex;
-  margin: auto;
-  gap: 95px;
+  gap: 80px;
+  margin-inline-start: auto;
   color: white;
 }
 
