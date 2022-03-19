@@ -1,12 +1,12 @@
 import Header from "../Header/Header"
-import Live from "./live/LiveView"
+import LiveJS from '../Page/live/live'
 
 function App() {
 
   return (
     <>
       <Header />
-      <Live />
+      <LiveJS />
     </>
   )
 }
