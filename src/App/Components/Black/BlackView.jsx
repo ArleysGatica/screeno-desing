@@ -3,7 +3,7 @@ import './BLACK.css'
 import sacso from '../../Asset/sacso.png';
 
 const BlackView = (props) => {
-  const { Arraytext, Arraytext2 } = props;
+  const { Arraytext } = props;
   console.log(Arraytext);
 
   return (
@@ -14,26 +14,20 @@ const BlackView = (props) => {
         </div>
         <div className="black-card-map">
           {
-            Arraytext.map((item, index) => {
+            Arraytext.map((item) => {
               return (
-                <div className="black-card-map-item" key={index}>
-                  <div className="black-card-map-item-text">
-                    <section className='uno'>
-                      <h3>{item.text1}</h3>
-                      <p>{item.description1}</p> <br />
-                      <p>{item.down}</p>
-                    </section>
-                    <img src={item.img1} alt="" />
+                <>
+                  <div className="black-card-map-text">
+                    <div className='item-info'>
+                      <h2>{item.text}</h2>
+                      <p>{item.description}</p>
+                      <button>{item.down}</button>
+                    </div>
+
+
+                    <img src={item.img} alt="" />
                   </div>
-                  <div className="black-card-map-item-text">
-                    <img src={item.img1} alt="" />
-                    <section className='uno'>
-                      <h3>{item.text1}</h3>
-                      <p>{item.description1}</p> <br />
-                      <p>{item.down1}</p>
-                    </section>
-                  </div>
-                </div>
+                </>
               )
             })}
         </div>

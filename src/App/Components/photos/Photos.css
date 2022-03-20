@@ -1,0 +1,30 @@
+.photos--main{
+  margin-bottom: 4%;
+}
+
+.item-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 42%;  
+  padding: 20px;
+  margin: auto;
+}
+.item-info h2{
+  color: black;
+  font-size: 45px;
+}
+#sub__title{
+  color: black;
+  font-size: 13px;
+}
+.photos--container{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1519px;
+    gap: 38px;
+    margin: 0 auto;
+}

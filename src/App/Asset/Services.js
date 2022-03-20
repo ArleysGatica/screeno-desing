@@ -12,6 +12,15 @@ import analitys from './analitys.svg'
 import device from './device.svg'
 import escala from './escala.svg'
 import sacso from './sacso.png'
+import uno from './1.png'
+import dos from './2.png'
+import tres from './3.png'
+import cuatro from './4.png'
+import cinco from './5.png'
+import seis from './6.png'
+import siete from './7.png'
+import ocho from './8.png'
+import nueve from './9.png'
 
 const serviSVG = (SVG) => {
   const status = {
@@ -28,7 +37,16 @@ const serviSVG = (SVG) => {
     analitys: analitys,
     device: device,
     escala: escala,
-    sacso: sacso
+    sacso: sacso,
+    uno: uno,
+    dos: dos,
+    tres: tres,
+    cuatro: cuatro,
+    cinco: cinco,
+    seis: seis,
+    siete: siete,
+    ocho: ocho,
+    nueve: nueve
   }
   return status[SVG]
 }
