@@ -5,11 +5,11 @@ const LiveJS = () => {
   const array = [
     {
       id: 1,
-      SVG: serviSVG('androiddevelopers'),
+      SVG: serviSVG('tvapple'),
     },
     {
       id: 2,
-      SVG: serviSVG('tv'),
+      SVG: serviSVG('androidtv'),
     },
     {
       id: 3,
