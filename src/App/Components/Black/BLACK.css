@@ -1,0 +1,39 @@
+.black-card{
+  background: rgb(206, 50, 50);
+}
+
+.black-card-text h2{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 30px;
+  color: white;
+}
+
+.black-card-map-item-text{
+  display: flex;
+padding: 10px; ;
+  width: 1140px;
+  margin: 0% auto;
+}
+
+.black-card-map-item-text-2{
+  display: flex;
+  background: rgb(124, 113, 124);
+  width: 1140px;
+}
+
+.uno{
+  width: 475px;
+  background: yellowgreen;
+  font-size: 16px;
+  height: 140px;
+
+ 
+}
+
+.dos{
+  width: 455px;
+
+  
+}

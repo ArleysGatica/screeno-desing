@@ -2,7 +2,6 @@ import './PLATFORM.css';
 
 const PlatFormView = (props) => {
   const { info } = props;
-  console.log("🚀 ", info)
 
   return (
     <main className="platform-view">
@@ -14,7 +13,7 @@ const PlatFormView = (props) => {
           <button id="loginPlatform">Login</button>
         </div>
       </span>
-      <setcion className="platform-view__container">
+      <section className="platform-view__container">
         {info.map((item, index) => {
           return (
             <article className="platform-view__item" key={index}>
@@ -26,7 +25,7 @@ const PlatFormView = (props) => {
             </article>
           )
         })}
-      </setcion>
+      </section>
     </main>
   );
 }

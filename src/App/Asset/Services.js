@@ -11,6 +11,7 @@ import flecha from './flecha.svg'
 import analitys from './analitys.svg'
 import device from './device.svg'
 import escala from './escala.svg'
+import sacso from './sacso.png'
 
 const serviSVG = (SVG) => {
   const status = {
@@ -26,7 +27,8 @@ const serviSVG = (SVG) => {
     flecha: flecha,
     analitys: analitys,
     device: device,
-    escala: escala
+    escala: escala,
+    sacso: sacso
   }
   return status[SVG]
 }
