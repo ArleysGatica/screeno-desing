@@ -30,6 +30,8 @@ import recta from './recta.svg'
 import presentador from './presentador.png'
 import gmail from './gmail.svg'
 import gmailSMS from './gmailSMS.svg'
+import cook from './cook.png'
+import cocinero from './cocinero.png'
 
 const serviSVG = (SVG) => {
   const status = {
@@ -64,8 +66,9 @@ const serviSVG = (SVG) => {
     recta: recta,
     presentador: presentador,
     gmail: gmail,
-    gmailSMS: gmailSMS
-
+    gmailSMS: gmailSMS,
+    cook: cook,
+    cocinero: cocinero
   }
   return status[SVG]
 }

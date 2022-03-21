@@ -8,17 +8,22 @@
   justify-content: center;
   align-items: center;
   width: 42%;  
-  padding: 20px;
+  padding: 7%;
   margin: auto;
 }
+
 .item-info h2{
   color: black;
   font-size: 45px;
+  font-weight: bold;
 }
+
 #sub__title{
   color: black;
   font-size: 13px;
+  padding: 15px;
 }
+
 .photos--container{
     flex-wrap: wrap;
     display: flex;
