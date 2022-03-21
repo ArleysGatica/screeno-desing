@@ -26,6 +26,10 @@ import facebook from './facebook.svg'
 import ubicacion from './ubicacion.svg'
 import call from './call.svg'
 import sms from './sms.svg'
+import recta from './recta.svg'
+import presentador from './presentador.png'
+import gmail from './gmail.svg'
+import gmailSMS from './gmailSMS.svg'
 
 const serviSVG = (SVG) => {
   const status = {
@@ -56,7 +60,12 @@ const serviSVG = (SVG) => {
     facebook: facebook,
     ubicacion: ubicacion,
     call: call,
-    sms: sms
+    sms: sms,
+    recta: recta,
+    presentador: presentador,
+    gmail: gmail,
+    gmailSMS: gmailSMS
+
   }
   return status[SVG]
 }
