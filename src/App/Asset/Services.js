@@ -21,6 +21,11 @@ import seis from './6.png'
 import siete from './7.png'
 import ocho from './8.png'
 import nueve from './9.png'
+import insta from './insta.svg'
+import facebook from './facebook.svg'
+import ubicacion from './ubicacion.svg'
+import call from './call.svg'
+import sms from './sms.svg'
 
 const serviSVG = (SVG) => {
   const status = {
@@ -46,7 +51,12 @@ const serviSVG = (SVG) => {
     seis: seis,
     siete: siete,
     ocho: ocho,
-    nueve: nueve
+    nueve: nueve,
+    insta: insta,
+    facebook: facebook,
+    ubicacion: ubicacion,
+    call: call,
+    sms: sms
   }
   return status[SVG]
 }

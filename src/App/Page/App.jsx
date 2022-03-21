@@ -3,6 +3,7 @@ import LiveJS from '../Page/live/live'
 import PlatformJS from "../Components/PlatForm/platform"
 import BlackJS from "../Components/Black/black"
 import PhotosJS from '../Components/photos/Photos.jsx'
+import Footer from '../Components/Footer/Footer.jsx'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <PlatformJS />
       <BlackJS />
       <PhotosJS />
+      <Footer />
     </>
   )
 }
