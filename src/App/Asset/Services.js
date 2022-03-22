@@ -24,7 +24,7 @@ import nueve from './9.png'
 import insta from './insta.svg'
 import facebook from './facebook.svg'
 import ubicacion from './ubicacion.svg'
-import call from './call.svg'
+import Call from './Call.svg'
 import sms from './sms.svg'
 import recta from './recta.svg'
 import presentador from './presentador.png'
@@ -61,7 +61,7 @@ const serviSVG = (SVG) => {
     insta: insta,
     facebook: facebook,
     ubicacion: ubicacion,
-    call: call,
+    Call: Call,
     sms: sms,
     recta: recta,
     presentador: presentador,

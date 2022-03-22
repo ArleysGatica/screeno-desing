@@ -10,7 +10,7 @@ const arrayfooter = [
   {
     id: 2,
     name: '(219) 555-0114',
-    img: serviSVG('call')
+    img: serviSVG('Call')
   },
   {
     id: 3,
