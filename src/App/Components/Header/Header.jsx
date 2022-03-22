@@ -1,10 +1,11 @@
 import './Header.css';
+import serviSVG from '../../Asset/Services';
 
 const Header = () => {
   return (
     <header className="Header-main">
       <div className='Header'>
-        <h1>Scr<strong>ee</strong>no</h1>
+        <img src={serviSVG('logo')} alt="" />
         <nav>
           <ul>
             <li to="/">Exemplets</li>

@@ -32,6 +32,7 @@ import gmail from './gmail.svg'
 import gmailSMS from './gmailSMS.svg'
 import cook from './cook.png'
 import cocinero from './cocinero.png'
+import logo from './logo.svg'
 
 const serviSVG = (SVG) => {
   const status = {
@@ -68,7 +69,8 @@ const serviSVG = (SVG) => {
     gmail: gmail,
     gmailSMS: gmailSMS,
     cook: cook,
-    cocinero: cocinero
+    cocinero: cocinero,
+    logo: logo
   }
   return status[SVG]
 }
