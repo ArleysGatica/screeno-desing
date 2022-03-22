@@ -42,8 +42,10 @@ const BlackView = (props) => {
                   <section className="card-map-item" key={item.id}>
                     <div className='card-images'>
                       <img src={item.img} alt="img" />
-                      <div className='gmail'>
-                        <img src={item.Gmail} alt="" />
+                      <div className='gmail-Main'>
+                        <div className='gmail'>
+                          <img src={item.Gmail} alt="" />
+                        </div>
                       </div>
                     </div>
                     <div className="card-map-item-text">

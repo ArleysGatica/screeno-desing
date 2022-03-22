@@ -32,7 +32,7 @@ const Footer = () => {
               <img src={serviSVG('facebook')} alt="" />
             </picture>
           </section>
-          <span>
+          <span className='item--2'>
             <p id='title__2'>Contact info</p>
             {
               arrayfooter.map(item => (
